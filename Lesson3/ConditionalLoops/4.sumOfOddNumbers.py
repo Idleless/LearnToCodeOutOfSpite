@@ -43,6 +43,4 @@ class TestSumOfNaturalNums(unittest.TestCase):
         self.assertEqual(sum_of_odd_numbers(1000), 250000)
 
 if __name__=="__main__":
-    for i in range(10):
-        print(f"{i}, {sum_of_odd_numbers(i)}")
     unittest.main()

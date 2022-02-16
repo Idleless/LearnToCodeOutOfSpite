@@ -45,6 +45,4 @@ class TestSumOfNaturalNums(unittest.TestCase):
         self.assertEqual(sum_of_even_numbers(1000), 250500)
 
 if __name__=="__main__":
-    for i in range(10):
-        print(f"{i}, {sum_of_even_numbers(i)}")
     unittest.main()
