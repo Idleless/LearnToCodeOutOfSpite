@@ -25,7 +25,7 @@ def sum_of_even_numbers(n: int) -> int:
      Can ignore or used as a refrence but shouldn't need to change
 ##########################################################################
 """
-class TestSumOfNaturalNums(unittest.TestCase):
+class TestSumOfEvenNums(unittest.TestCase):
     def test_zero(self):
         self.assertEqual(sum_of_even_numbers(0), 0)
 

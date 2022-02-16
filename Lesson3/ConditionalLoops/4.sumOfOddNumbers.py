@@ -25,7 +25,7 @@ def sum_of_odd_numbers(n: int) -> int:
      Can ignore or used as a refrence but shouldn't need to change
 ##########################################################################
 """
-class TestSumOfNaturalNums(unittest.TestCase):
+class TestSumOfOddNums(unittest.TestCase):
 
     def test_first_10(self):
         self.assertEqual(sum_of_odd_numbers(1), 1)
