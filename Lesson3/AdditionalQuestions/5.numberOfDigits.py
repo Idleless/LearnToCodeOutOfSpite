@@ -65,3 +65,6 @@ class TestNumberOfDigits(unittest.TestCase):
         self.assertEqual(number_of_digits(-10000000000000000000),20)
         self.assertEqual(number_of_digits(99999999999999999999),20)
         self.assertEqual(number_of_digits(-99999999999999999999),20)
+
+if __name__=="__main__":
+    unittest.main()
