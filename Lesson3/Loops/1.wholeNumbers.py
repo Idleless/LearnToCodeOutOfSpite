@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import unittest
+from typing import List
 
-
-def natural_nums(n: int) -> [int]:
+def natural_nums(n: int) -> List[int]:
     """
     Takes a positive integer 'n' and returns a list of the first 'n' whole numbers.
     Can assume that n >= 0
@@ -15,8 +15,8 @@ def natural_nums(n: int) -> [int]:
     Idealy, this function would be returning a generator/iterator and not a list but for ease of learning and testing, it will be a list.
     """
 
-    output = []
-    
+    output: List[int] = []
+
     #Your code here
     #Replacing 'print' with 'output.append' should work
     #Eg. output.append(i)

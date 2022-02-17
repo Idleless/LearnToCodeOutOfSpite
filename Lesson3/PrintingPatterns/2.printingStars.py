@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import unittest
+from typing import List
 
-def printing_numbers(n: int) -> [str]:
+def printing_numbers(n: int) -> List[str]:
     """
     Takes a positive integer 'n' and returns a list of strings with the following pattern:
         The first index will be a string with 'n' '*'
@@ -22,7 +23,7 @@ def printing_numbers(n: int) -> [str]:
 
     """
 
-    output = []
+    output: List[str] = []
 
     #Your code here
     #Replacing 'print' with 'output.append' should work

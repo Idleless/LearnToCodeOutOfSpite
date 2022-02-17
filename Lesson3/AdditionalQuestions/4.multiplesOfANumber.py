@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import unittest
+from typing import List
 
-
-def multiples_of_a_number(factor: int, num: int) -> [int]:
+def multiples_of_a_number(factor: int, num: int) -> List[int]:
     """
     Takes an integer 'factor' and an integer 'num' and returns a list of the first 'num' multiples of 'factor' starting at 0.
     Assume num >= 1
@@ -12,7 +12,7 @@ def multiples_of_a_number(factor: int, num: int) -> [int]:
     eg. multiples_of_a_number(3,5) == [0*3, 1*3, 2*3, 3*3, 4*3] == [0,3,6,9,12]
     """
 
-    output = []
+    output:List[int] = []
 
     #Your code here
 

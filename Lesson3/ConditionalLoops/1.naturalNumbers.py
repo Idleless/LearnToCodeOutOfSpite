@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 
 import unittest
+from typing import List
 
-
-def natural_nums(n: int) -> [int]:
+def natural_nums(n: int) -> List[int]:
     """
     Takes a positive integer 'n' and returns a list of the first 'n' natural numbers.
     Can assume that n >= 0
 
     eg. natural_nums(7) == [1,2,3,4,5,6,7]
-    
+
     Definition of natural numbers: https://byjus.com/maths/natural-numbers/
         eg. 1,2,3,4,5,6...
     Idealy, this function would be returning a generator/iterator and not a list but for ease of learning and testing, it will be a list.
     """
 
-    output = []
+    output: List[int] = []
 
     #Your code here
     #Replacing 'print' with 'output.append' should work
